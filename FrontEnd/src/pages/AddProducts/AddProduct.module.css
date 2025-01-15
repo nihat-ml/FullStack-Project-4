@@ -1,0 +1,55 @@
+
+.add-product-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-product-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  
+  .add-product-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-product-form div > label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .add-product-form div > input {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .add-product-form div > button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-product-form div > button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  .add-product-form div > div {
+    color: red;
+    font-size: 12px;
+  }
+  
